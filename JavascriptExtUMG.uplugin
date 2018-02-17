@@ -1,0 +1,38 @@
+{
+	"FileVersion" : 1,
+	"Version" : 1,
+	"VersionName" : "0.2.7",
+	"FriendlyName" : "Unreal.js UMG Extension",
+	"Description" : "Unreal.js UMG Extension",
+	"Category" : "Programming",
+	"CreatedBy" : "",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "JavascriptExtUMG",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UnrealJS",
+			"Enabled": true
+		}
+	]
+}
